@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(degradado-difuminado-morado_3840x2400_xtrafondos.com.jpg);
+}
+
+.seguimiento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    background: rgb(108, 52, 131);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border-radius: 10px;
+
+
+}
+.info01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-de-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.info02 a{
+color: white;
+text-decoration: none;
+
+}
+.info02 a:hover{
+    color: white;
+    text-decoration: underline;
+    
+    }
+
+.info02{
+    margin: auto;
+    width: 400px;
+    padding: 30px;
+    margin-top: 100px;
+    background: #6C3483;
+   border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    box-shadow: 7px, 13px, 37px #000;
+}
+.terminos{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+}
+.controls{
+    margin-top: 4px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background:rgb(108, 52, 131);
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: white;
+     font-size: 18px;
+}
+.botones{
+    margin-top: 4px;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #D0D3D4;
+    background:rgb(108, 52, 131);
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: white;
+     font-size: 18px;
+}
+.present{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6C3483;
+    margin-top: 30px;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border-radius: 10px;
+    background-position-x:30px; 
+
+}
+
+.info02 label{
+   width: 100%;
+    
+}
